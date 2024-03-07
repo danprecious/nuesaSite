@@ -4,7 +4,6 @@
 
 *{
   /* border: 1px solid white; */
- 
 }
 
 .colors{
@@ -12,9 +11,15 @@
   background-color: rgb(65, 11, 24);
   background-color: rgb(219, 174, 49);
   background-color: rgb(233, 212, 154);
-  background-color: rgb(219, 49, 49);
+  background-color: rgb(243, 101, 101);
 }
 
+.gradient-text{
+ background: linear-gradient(to right, #ff0000, #800080);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent; 
+}
 .text{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
 }

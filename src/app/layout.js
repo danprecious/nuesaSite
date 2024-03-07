@@ -15,9 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`bg-bg relative text-white ${PlayFairDisplay.className}`}>
- 
         <ContextProvider>
-    
         <Header />
         <SpaceEffect />
         {children}

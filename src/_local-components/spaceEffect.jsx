@@ -17,7 +17,7 @@ const SpaceEffect = () => {
       for (let i = 0; i < 100; i++) {
         const randomColor = colors[Math.floor(Math.random() * colors.length)];
         starArray.push({
-          left: `${Math.random() * 100}vw`,
+          left: `${Math.random() * 90}vw`,
           top: `${Math.random() * 100}vh`,
           animationDuration: `${Math.random() * 2 + 1}s`,
           backgroundColor: randomColor,

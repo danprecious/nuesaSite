@@ -16,7 +16,7 @@ const Hero = () => {
       currentWord.substring(0, current.length - shouldDelete)
     );
     if (!isDeleting && text === currentWord) {
-      setTimeout(() => setIsDeleting(true, 500));
+      setTimeout(() => setIsDeleting(true, 50));
     } else if (isDeleting && text === "") {
       setIsDeleting(false);
       setWordIndex((current) => (current + 1) % words.length);
@@ -24,7 +24,7 @@ const Hero = () => {
   };
 
   useEffect(() => {
-    const timer = setTimeout(type, isDeleting ? 200 : 300);
+    const timer = setTimeout(type, isDeleting ? 70 : 200);
     return () => clearTimeout(timer);
   }, [wordIndex, isDeleting, text]);
 
@@ -32,14 +32,14 @@ const Hero = () => {
     <div className="mt-[1em] relative p-3 items-center flex flex-col">
       <h1 className="text-[2.7rem] md:text-[6rem] headers text-center">
         Creating a Culture of <br></br>
-        <span className="typewriter typewriter-text">{text}</span>
+        <span className="typewriter typewriter-text transition-all text-center font-bold gradient-text">{text}</span>
       </h1>
       <p className="md:max-w-[50%] text-center mt-6">
         In a fast growing technological world, there's the need for a proper
         environment for enginneers in the making; we are that student body that
         help the student all-round.
       </p>
-      <div className="p-5">
+      <div className="p-5 my-5">
         <CustomButton text="Our Story" background="white" textColor="black" />
       </div>
     </div>
