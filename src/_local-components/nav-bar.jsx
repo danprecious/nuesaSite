@@ -72,7 +72,7 @@ const NavBody = () => {
 
   
     return (
-    <ul className="w-[100%] absolute md:right-[] md:hidden rounded-[4px] h-[100vh] right-0 flex justify-between p-4 z-50 top-0 bg-black text-white">
+    <ul className="w-[100%] fixed md:right-[] md:hidden rounded-[4px] h-[100vh] right-0 flex justify-between p-4 z-50 top-0 bg-black text-white">
       <div className="">
         {navItems.map(({ title, href }, index) => (
           <NavLink key={index} title={title} href={href} />

@@ -6,3 +6,4 @@ const CustomButton = ({text, background, textColor}) => {
 }
 
 export default CustomButton;
+ 
