@@ -11,8 +11,8 @@ const Home = () => {
   
 
   return (
-    <main className="relative p-2 h-full mt-5">
-      <Hero /> 
+    <main className="relative p-2 h-full">
+      <Hero />  
       <SectionOne />
       <SectionTwo />
       <SectionLayout headerText="Communities We Foster">

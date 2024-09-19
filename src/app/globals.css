@@ -6,6 +6,10 @@
   /* border: 1px solid white; */
 }
 
+
+p {
+  font-size: 1.2rem;
+}
 .colors{
   background-color: rgb(65, 46, 11);
   background-color: rgb(65, 11, 24);

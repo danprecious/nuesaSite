@@ -29,12 +29,12 @@ const Hero = () => {
   }, [wordIndex, isDeleting, text]);
 
   return (
-    <div className="mt-[1em] relative p-3 items-center flex flex-col">
-      <h1 className="text-[2.7rem] md:text-[6rem] headers text-center">
+    <div className="relative px-3 items-center justify-center flex flex-col min-h-[90vh]"> 
+      <h1 className="text-[2.5rem] md:text-[6rem] px-2 headers text-center ">
         Creating a Culture of <br></br>
         <span className="typewriter typewriter-text transition-all text-center font-bold gradient-text">{text}</span>
       </h1>
-      <p className="md:max-w-[50%] text-center mt-6">
+      <p className="md:max-w-[50%] text-center  mt-10 text-[1.2rem]">
         In a fast growing technological world, there's the need for a proper
         environment for enginneers in the making; we are that student body that
         help the student all-round.
