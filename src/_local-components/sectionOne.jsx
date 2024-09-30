@@ -2,23 +2,25 @@ import React from "react";
 
 const SectionOne = () => {
   return (
-    <div className="bg-white text-black grid place-items-center mt-6 md:p-16 p-6">
-      <h2 className="text-[3rem] my-8 font-black headers text-center">Our Mission</h2>
-      <div className="md:w-[80%] mt-8 flex flex-col md:flex-row ">
-        <div className="md:w-[30%] w-[100%]">
-          <div className="bg-zinc-200 h-[20rem] w-[100%] rounded-md">Image here</div>
-          <p className="p-2 text-center">Tagline</p>
-        </div>
-        <div className="md:w-[70%] flex flex-col md:mt-0 mt-6 md:items-end">
-          <h3 className="md:text-right text-[1.5rem] text-center font-bold  mb-4">Towards Optimal Student's Welfarism</h3>
-          <p className="md:text-justify text-center md:w-[80%]">
+    <div className="bg-white text-black flex flex-col items-center mt-6 md:py-16 md:px- p-6">
+      <h2 className="text-[3rem] mt-12 md:mb-10 mb-5 font-black headers text-center">
+        Our Mission
+      </h2>
+      <div className="md:w-[80%] mb-8 md:mt-12 flex flex-col md:flex-row md:justify-between ">
+        <div className="md:w-[40%] flex flex-col justify-center md:mt-0 mb-6 ">
+          <h3 className=" text-[1.5rem] font-bold  mb-4">
+            Towards Optimal Student's Welfarism
+          </h3>
+          <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
             nemo minus aperiam maxime quisquam doloremque asperiores nostrum
-            inventore maiores tempora iste repudiandae distinctio, repellat
-            incidunt voluptatum? Ea possimus libero alias hic! Amet architecto
-            eum fuga, quo neque magni vero. Saepe tenetur rem, eaque vero iusto
-            modi facere sequi dignissimos dolor?
+            
           </p>
+        </div>
+        <div className="md:w-[55%] w-[100%] mt-8 md:mt-0">
+          <div className="bg-zinc-200 h-[70vh] w-[100%] rounded-md relative">
+            <div className="h-[10px] absolute bg-stone-950 w-[50%] top-[-1.5rem] right-0  "></div>
+          </div>
         </div>
       </div>
     </div>

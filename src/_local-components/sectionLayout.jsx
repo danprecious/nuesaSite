@@ -6,7 +6,7 @@ import SpaceEffect from "./spaceEffect";
 const PlayFairDisplay = Playfair_Display({subsets: ['latin']})
 const SectionLayout = ({children, headerText}) => {
   return (
-    <div className="bg-white text-black grid place-items-center relative mt-6 md:p-16 p-6">
+    <div className="bg-white text-black grid place-items-center relative mt-6 md:p-10  p-6">
     <SpaceEffect />
       <SectionHeading text={headerText} className="text-center"/>
     <div>

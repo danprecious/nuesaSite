@@ -5,6 +5,7 @@ import PreFooter from "@/_local-components/preFooter";
 import SectionLayout from "@/_local-components/sectionLayout";
 import Hero from "@/_local-components/hero";
 import SpaceEffect from "@/_local-components/spaceEffect";
+import CommunitySection from "@/components/LandingSections/community";
 
 const Home = () => {
 
@@ -16,8 +17,11 @@ const Home = () => {
       <SectionOne />
       <SectionTwo />
       <SectionLayout headerText="Communities We Foster">
+        <CommunitySection />
       </SectionLayout>
-      <SectionLayout headerText="Milestones"></SectionLayout>
+      <SectionLayout headerText="Milestones">
+
+      </SectionLayout>
       <SectionLayout headerText="Photo Gallery"></SectionLayout>
       <PreFooter />
       <Footer />
